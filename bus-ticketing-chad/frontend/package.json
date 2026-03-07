@@ -1,0 +1,29 @@
+{
+  "name": "bus-ticketing-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Chad Bus Ticketing System",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.2",
+    "lucide-react": "^0.298.0",
+    "react-hook-form": "^7.49.2",
+    "date-fns": "^3.0.0",
+    "clsx": "^2.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4"
+  }
+}
