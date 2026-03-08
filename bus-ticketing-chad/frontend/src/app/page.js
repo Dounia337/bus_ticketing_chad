@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Search, Calendar, MapPin, Users } from 'lucide-react';
-import { tripService } from '@/services/tripService';
+import { tripService } from '../services/tripService';
 
 export default function Home() {
   const [cities, setCities] = useState([]);
